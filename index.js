@@ -25,7 +25,7 @@ var runningSum = function (nums) {
   return solution;
 };
 
-// 1672. Richest Customer Wealth COME BACK FOR HIGHER ORDER FUNCTION REFRACTOR
+// 1672. Richest Customer Wealth COME BACK FOR HIGHER ORDER FUNCTION REFRACTOR blah
 
 var maximumWealth = function (accounts) {
   // sum up values of nested array, then choose largest of those values
