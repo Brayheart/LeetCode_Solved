@@ -11,3 +11,16 @@ var sum = function (num1, num2) {
 var checkTree = function (root) {
   return root.val === root.left.val + root.right.val;
 };
+
+// 1480. Running Sum of 1d Array
+
+var runningSum = function (nums) {
+  var solution = [];
+  var sum = 0;
+
+  for (i = 0; i < nums.length; i++) {
+    solution.push((sum += nums[i]));
+  }
+
+  return solution;
+};
