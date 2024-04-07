@@ -1,4 +1,4 @@
-// Easy Leetcode test
+// Easy Leetcode
 
 // 2235. Add Two Integers
 
